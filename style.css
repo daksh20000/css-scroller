@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#nav1{
+    height: 80px;
+    /* width: 100%; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav-part2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    
+}
+#nav-part2 h4{
+    margin:0 14px ;
+    font-size: 19px;
+    font-family: "League Spartan", sans-serif;
+}
+#nav-part2 h4 span{
+    color: grey;
+    margin-left: 25px;
+}
+#nav-part1{
+    display: flex;
+    margin-left: 28px;
+    
+}
+.circle{
+    height: 25px;
+    width: 25px;
+    background-color: rgb(8, 9, 8);
+    border-radius: 50%;
+    margin: 0px 0.192px;
+}
+#nav2{
+    height: 50px;
+    /* background-color: grey; */
+    display: flex;
+    gap: 50px ;
+    align-items: center;
+    padding-left: 28px;
+}
+#nav2 h4{
+    font-family: "Poiret One", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+#content{
+    height: calc(100% - 130px);
+    /* background-color: blue; */
+}
+#text-content{
+    height: 45%;
+    /* background-color: khaki; */
+    display: flex;
+    /* flex-wrap: nowrap; */
+    overflow-x: auto;
+    
+}
+#text-content ::-webkit-scrollbar{
+    background-color: transparent;
+}
+#text-content ::-webkit-scrollbar-thumb{
+    background-color: orange;
+}
+.elem{
+    flex-shrink: 0;
+    height: 100%;
+    width: 50%;
+    /* background-color: purple; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.elem h1{
+    font-size: 90px;
+    font-family: "Train One", system-ui;
+}
